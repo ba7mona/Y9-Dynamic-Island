@@ -1,0 +1,13 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.rbteam.dynamicisland'
+    compileSdk 35
+    defaultConfig {
+        applicationId 'com.rbteam.dynamicisland'
+        minSdk 28
+        targetSdk 28
+        versionCode 1
+        versionName '1.0'
+    }
+}
